@@ -11,4 +11,4 @@ jobs:
              - run: ls
              - uses: actions/upload_artifact@v4
                with:
-                   patch: plot.pdf
+                   path: plot.pdf
